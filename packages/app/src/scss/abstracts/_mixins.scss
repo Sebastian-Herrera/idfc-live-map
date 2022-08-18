@@ -1,0 +1,27 @@
+@mixin responsive($size) {
+  @if $size == phones-portrait {
+    @media (max-width: 576px) and (orientation: portrait) {
+      @content;
+    }
+  } @else if $size == phones-landscape {
+    @media (min-width: 576px) and (orientation: landscape) {
+      @content;
+    }
+  } @else if $size == tablets {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $size == desktops {
+    @media (min-width: 992px) {
+      @content;
+    }
+  } @else if $size == desktops-xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  } @else if $size == desktops-xxl {
+    @media (min-width: 1400px) {
+      @content;
+    }
+  }
+}

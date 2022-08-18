@@ -1,0 +1,30 @@
+/* Color palette
+   ============================================ */
+
+$c-bg-page: #fff;
+$c-common-text: #000;
+$c-primary: #9750dd;
+
+/* 8pt Grid System
+   ============================================ */
+
+$small: 8px;
+$medium-1: 16px;
+$medium-2: 24px;
+$medium-3: 32px;
+$large-1: 40px;
+$large-2: 48px;
+$large-3: 56px;
+
+/* Typography
+   ============================================ */
+
+$primary-font: "Inter", sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 500;
+$base-line-height: 1.15;
+$text-line-height: 1.75;
+$font-large-scale: $base-font-size * 4;
+$h1-scale: $base-font-size * 3;
+$h2-scale: $base-font-size * 2;
+$h3-scale: $base-font-size * 1.5;
